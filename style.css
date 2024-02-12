@@ -1,0 +1,120 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.ch {
+    width: 893px;
+    height: 580px;
+    padding: 10px;
+}
+
+.cf {
+    width: 285px;
+    display: flex;
+    position: relative;
+    left: 40px;
+
+}
+
+.checkbox {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 305px;
+    top: 110px;
+}
+
+.preencher {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    position: absolute;
+    left: 961px;
+    height: 97px;
+    width: 279px;
+}
+
+label {
+    color: white;
+    font-weight: bolder;
+    position: relative;
+    margin: 5px;
+    right: -12px;
+
+}
+
+input {
+    background: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.senha {
+    top: 277px;
+    left: 127px;
+}
+
+button {
+    display: flex;
+    position: relative;
+    left: 1021px;
+    bottom: 153px;
+    background: rebeccapurple;
+    border: none;
+    padding: 10px 29px;
+    font-size: 21px;
+    border-radius: 23px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+a {
+    display: flex;
+    width: 120px;
+    position: relative;
+    left: 1032px;
+    bottom: 117px;
+}
+
+a:active {
+    color: white;
+}
+
+a:hover {
+    opacity: 0.5;
+    color: white;
+}
+
+.whtz {
+    width: 49px;
+    display: flex;
+    justify-items: end;
+    position: relative;
+    left: 1261px;
+    bottom: 160px;
+    cursor: pointer;
+}
+
+.whtz:active{
+    opacity: 0.5;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    color: white;
+}
